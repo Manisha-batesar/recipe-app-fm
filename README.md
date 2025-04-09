@@ -1,27 +1,22 @@
-# SSPU Website
+# Recipe Website
 
-A modern React-based website for Symbiosis Skills & Professional University showcasing courses, admissions, and campus life.
+A modern React-based recipe website showcasing a simple omelette recipe with detailed instructions and nutritional information.
 
 ## 🚀 Features
 
 - Responsive design that works across devices
-- Interactive course catalog with detailed information
-- Dynamic testimonials carousel
-- Admission form with validation
-- Campus tour section
-- FAQ section with expandable answers
-- Career opportunities showcase
-- Scholarship information
-- Mobile-friendly navigation
+- Recipe overview with preparation time
+- Detailed ingredients list
+- Step-by-step cooking instructions
+- Nutritional information
+- Mobile-friendly layout
+- Clean and modern UI
 
 ## 🛠️ Technologies Used
 
 - React 19.0.0
-- Framer Motion for animations
-- Embla Carousel for slider components
-- Hero Icons
-- CSS Modules
 - Webpack & Babel for building
+- CSS Modules
 - ESLint & Prettier for code formatting
 
 ## 📦 Installation
@@ -29,7 +24,7 @@ A modern React-based website for Symbiosis Skills & Professional University show
 1. Clone the repository:
 ```bash
 git clone <repository-url>
-cd react-first-app
+cd first-react-challenge-App
 ```
 
 2. Install dependencies:
@@ -47,19 +42,12 @@ npm run dev
 ```
 src/
 ├── components/
-│   ├── AdmissionForm/
-│   ├── AdmissionProcess/
-│   ├── CampusTour/
-│   ├── CareerOpportunities/
-│   ├── Common/
-│   ├── Courses/
-│   ├── CoursesOffered/
-│   ├── Footer/
-│   ├── FrequentlyAskedQuestions/
 │   ├── Header/
-│   ├── Scholarship/
-│   ├── Testimonial/
-│   └── WhyChooseUs/
+│   ├── Recipes/
+│   ├── PreparationTime/
+│   ├── Ingredients/
+│   ├── Instructions/
+│   └── Nutritions/
 ├── assets/
 ├── styles/
 └── App.js
@@ -71,37 +59,37 @@ src/
 - `npm run build` - Creates production build
 - `npm run lint` - Runs ESLint
 - `npm run lint:fix` - Fixes ESLint issues
+- `npm run deploy` - Deploys to GitHub Pages
 
 ## 🎨 Component Features
 
 ### Header
-- Responsive navigation
-- Mobile menu support
-- Enrollment CTA button
+- Responsive recipe image display
+- Clean and modern layout
 
-### Courses Section
-- Interactive course cards
-- Detailed course information
-- Program highlights
+### Recipe Overview
+- Recipe title and description
+- Clear typography with custom fonts
 
-### Admission Process
-- Step-by-step guide
-- Requirements display
-- Application instructions
+### Preparation Time
+- Detailed timing breakdown
+- Total, preparation, and cooking time
 
-### Testimonials
-- Auto-playing carousel
-- Student testimonials
-- Image gallery
+### Ingredients & Instructions
+- Clear, organized lists
+- Step-by-step cooking instructions
+- Easy-to-follow format
 
-### Campus Tour
-- Virtual tour section
-- Campus statistics
-- Booking functionality
+### Nutrition Information
+- Comprehensive nutritional values
+- Per-serving breakdown
 
-## 🔐 Environment Variables
+## 🌐 Browser Support
 
-No environment variables are required to run this project.
+- Chrome (latest)
+- Firefox (latest)
+- Safari (latest)
+- Edge (latest)
 
 ## 🤝 Contributing
 
@@ -115,12 +103,6 @@ No environment variables are required to run this project.
 
 This project is open source and available under the [MIT License](LICENSE).
 
-## 👥 Contact
+## 👥 Author
 
-For any queries regarding the project, please reach out to the maintainers.
-
-## 🙏 Acknowledgments
-
-- Symbiosis Skills & Professional University for content
-- React team for the framework
-- All contributors who helped in building this website
+Manisha Batesar
