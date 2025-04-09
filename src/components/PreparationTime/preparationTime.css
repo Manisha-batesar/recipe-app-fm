@@ -14,15 +14,44 @@ h2{
 }
 
   ul{
-   align-items: flex-start;
-
+  
+   
   li{ 
+    position: relative;
+    list-style: none;
     font-size: 19px;
     font-weight: 400;
+    padding-left: 24px;
+    font-family: initial;
     span{
       font-size: 20px;
       font-weight: 900;
     }
   }
+  li::before {
+    content: '•'; /* bullet character */
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-size: 20px; /* bullet size */
+    color: hsl(332, 51%, 32%);  /* bullet color */
+    line-height: 1;
   }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .preparationtime{
+    padding: 1px;
+    ul{
+      li{
+        font-size: 16px;
+      
+        span{
+          font-size: 17px;
+        }
+      }
+    }
+  }
+  
 }

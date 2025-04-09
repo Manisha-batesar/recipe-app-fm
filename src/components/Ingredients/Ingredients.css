@@ -9,9 +9,21 @@
   ul{
     padding-bottom: 20px;
    li {
+    position: relative;
+    list-style: none;
     font-size:22px ;
     font-family: initial;
     font-weight: 400;
-    padding-left: 30px;
+    
+    padding-left: 24px;
+  }
+  li::before {
+    content: '•'; /* bullet character */
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-size: 20px; /* bullet size */
+    color: hsl(14, 45%, 36%);  /* bullet color */
+    line-height: 1;
   }}
 }

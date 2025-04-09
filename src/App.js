@@ -5,6 +5,7 @@ import Recipes from './components/Recipes/Recipes';
 import PreparationTime from './components/PreparationTime/PreparationTime';
 import Ingredients from './components/Ingredients/Ingredients';
 import Instructions from './components/Instructions/Instructions';
+import Nutritions from './components/Nutritions/Nutritions';
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
       <PreparationTime />
       <Ingredients />
       <Instructions />
+      <Nutritions />
     </>
   )
 }

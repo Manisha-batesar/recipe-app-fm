@@ -15,3 +15,17 @@
     line-height: 30px;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .recipeContent{
+    h1{
+      font-size: 35px;
+      padding: 10px 0 10px 0;
+    }
+    p{
+      font-size: 18px;
+      padding-bottom: 10px;
+    }
+  }
+  
+}

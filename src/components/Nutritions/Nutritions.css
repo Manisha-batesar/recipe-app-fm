@@ -1,0 +1,41 @@
+.nutritions {
+  padding: 20px;
+  font-family: sans-serif;
+
+
+ h2 {
+  font-size: 32px;
+  font-weight: 900;
+  color: hsl(14, 45%, 36%);
+  margin-bottom: 10px;
+}
+
+ h6 {
+  font-size: 16px;
+  font-weight: 400;
+  color: hsl(30, 10%, 34%);
+  margin-bottom: 20px;
+}
+
+.allNutritions p {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  font-size: 16px;
+  color: hsl(30, 10%, 34%);
+  margin: 10px 0;
+  text-align: left;
+}
+
+.allNutritions span {
+  font-weight: bold;
+  color: hsl(14, 45%, 36%);
+  text-align: center; /* center in its own column */
+}
+
+.allNutritions hr {
+  border: none;
+  border-bottom: 1px solid hsl(30, 18%, 87%);
+  margin: 0;
+}
+}
