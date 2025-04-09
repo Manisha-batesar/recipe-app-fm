@@ -4,6 +4,7 @@ import Header from './components/Header/Header';
 import Recipes from './components/Recipes/Recipes';
 import PreparationTime from './components/PreparationTime/PreparationTime';
 import Ingredients from './components/Ingredients/Ingredients';
+import Instructions from './components/Instructions/Instructions';
 
 const App = () => {
   return (
@@ -12,6 +13,7 @@ const App = () => {
       <Recipes />
       <PreparationTime />
       <Ingredients />
+      <Instructions />
     </>
   )
 }
