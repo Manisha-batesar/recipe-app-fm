@@ -2,7 +2,7 @@
   "name": "react-first-app",
   "version": "1.0.0",
   "description": "first react app",
-  "homepage": "https://manisha-batesar.github.io/react-sspu/",
+  "homepage": "https://manisha-batesar.github.io/recipe-app-fm/",
   "main": "index.js",
   "scripts": {
     "dev": "webpack serve",
