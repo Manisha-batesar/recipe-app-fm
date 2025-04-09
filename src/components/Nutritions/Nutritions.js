@@ -4,7 +4,7 @@ import './Nutritions.css'
 const Nutritions = () => {
   return (
     <div className='nutritions'>
-      <h2>Nutritions</h2>
+      <h2 className='young-serif-regular'>Nutritions</h2>
       <h6>The table below shows nutritional values per serving without the additional fillings.</h6>
       <div className='allNutritions'>
         <p>Calories<span>277kcal</span></p><hr/>

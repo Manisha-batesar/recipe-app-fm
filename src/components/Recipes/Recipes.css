@@ -2,11 +2,12 @@
   margin-top: 25px;
   margin: 40px;
   h1{
-    font-size: 45px;
+    font-size: 40px;
     line-height: 100%;
    padding: 20px 0 20px 0;
    font-family: initial;
-   font-weight: 900;
+   font-weight: 500;
+ 
   }
   p{
     font-size: 22px;

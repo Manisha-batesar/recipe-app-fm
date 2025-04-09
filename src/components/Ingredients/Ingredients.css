@@ -3,9 +3,9 @@
   margin: 30px;
   h2{
     font-size: 35px;
-    font-family: initial;
     color:  hsl(14, 45%, 36%);
     padding: 10px;
+    font-weight: bolder;
   }
   ul{
     padding-bottom: 20px;

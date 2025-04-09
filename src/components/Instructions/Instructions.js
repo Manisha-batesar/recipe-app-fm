@@ -4,7 +4,7 @@ import './Instructions.css'
 const Instructions = () => {
   return (
     <div className='instructions'>
-      <h2>Instructions</h2>
+      <h2 className='young-serif-regular'>Instructions</h2>
 
       <ol>
         <li><span>Beat the eggs:</span>In a bowl, beat the eggs with a pinch of salt and pepper until they are well mixed. You can add a tablespoon of water or milk for a fluffier texture.</li>

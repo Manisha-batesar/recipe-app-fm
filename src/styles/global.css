@@ -5,10 +5,29 @@
   --gray-color:#727273;
 }
 
+.young-serif-regular {
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.outfit-regular {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
 
 
 body, html {
   overflow-x: hidden;
+}
+
+* {
+  font-family: "Outfit", sans-serif !important;
+  font-optical-sizing: auto;
+  font-style: normal;
 }
 
 body {
