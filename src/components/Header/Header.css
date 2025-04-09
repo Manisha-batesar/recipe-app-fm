@@ -1,0 +1,22 @@
+.header{
+ align-items: center;
+ justify-content: center;
+  img{
+    width: 100%;
+    border-radius: 10px;
+  }
+}
+
+
+
+
+
+@media screen and (max-width: 768px) {
+  .header{
+    img{
+      width: 100%;
+      border-radius: 0;
+    }
+  }
+  
+}
