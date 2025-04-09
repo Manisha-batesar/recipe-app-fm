@@ -1,7 +1,7 @@
 .nutritions {
   padding: 20px;
   font-family: sans-serif;
-
+ margin: 30px;
 
  h2 {
   font-size: 32px;
@@ -38,4 +38,10 @@
   border-bottom: 1px solid hsl(30, 18%, 87%);
   margin: 0;
 }
+}
+@media screen and (max-width: 768px) {
+  .nutritions {
+    margin: 20px;
+    
+  }
 }

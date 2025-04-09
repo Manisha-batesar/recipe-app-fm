@@ -5,17 +5,14 @@
   --gray-color:#727273;
 }
 
-* {
-  margin: 20px;
-  
-  font-family: 'Mulish', sans-serif;
-}
+
 
 body, html {
   overflow-x: hidden;
 }
 
 body {
+  /* padding: 40px; */
   width: 100%;
   max-width: 900px;
   margin: auto;
@@ -25,8 +22,10 @@ body {
 }
 
 @media screen and (max-width: 768px) {
-  *{
-    margin: 10px;
-  }
+  body, html{
+   margin: 0px;
+   box-shadow:none;
+  } 
+
   
 }

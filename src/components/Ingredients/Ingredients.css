@@ -1,5 +1,6 @@
 .ingredients{
   margin-top: 30px;
+  margin: 30px;
   h2{
     font-size: 35px;
     font-family: initial;
@@ -26,4 +27,12 @@
     color: hsl(14, 45%, 36%);  /* bullet color */
     line-height: 1;
   }}
+}
+
+@media screen and (max-width: 768px) {
+  .ingredients{
+    margin: 20px;
+   
+  }
+  
 }
