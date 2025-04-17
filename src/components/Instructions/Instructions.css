@@ -19,15 +19,17 @@
   li{
     position: relative;
     color:  hsl(24, 5%, 18%);
-    font-size: 20px;
+    font-size: 18px;
+    font-weight: 300;
     padding-left: 30px;
+    padding-bottom: 13px;
   
 
 
     span{
       color:  hsl(24, 5%, 18%);
       font-size: 20px;
-      font-weight:700;
+      font-weight:500;
       margin-right: 6px;
       display: inline;
     }
